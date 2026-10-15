@@ -43,10 +43,9 @@ nav {
   to { opacity: 1; transform: translateY(0); }
 }
 .logo {
-  font-size: 1.4rem; font-weight: 800;
-  background: linear-gradient(135deg, var(--accent), var(--accent3));
-  -webkit-background-clip: text; -webkit-text-fill-color: transparent;
-  letter-spacing: -0.5px;
+  display: block;
+  max-width: 140px; max-height: 42px;
+  object-fit: contain;
 }
 .nav-links { display: flex; gap: 2rem; list-style: none; }
 .nav-links a {
